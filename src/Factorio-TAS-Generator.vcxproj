@@ -194,7 +194,7 @@
     <ClCompile Include="SteptypeColour.cpp" />
     <ClCompile Include="Structures\Building.cpp" />
     <ClCompile Include="Structures\Step.cpp" />
-    <ClCompile Include="TAS save file\OpenTas.cpp" />
+    <ClCompile Include="TAS save file/OpenTas.cpp" />
     <ClCompile Include="TAS save file\SaveTas.cpp" />
     <ClCompile Include="Technology.cpp" />
     <ClCompile Include="TemplatePage.cpp" />
@@ -206,8 +206,8 @@
     <ClInclude Include="cApp.h" />
     <ClInclude Include="cMain.h" />
     <ClInclude Include="CommandStack.h" />
-    <ClInclude Include="Data\Inventory.h" />
-    <ClInclude Include="Data\utils.h" />
+    <ClInclude Include="Data/Inventory.h" />
+    <ClInclude Include="Data/utils.h" />
     <ClInclude Include="GenerateScript.h" />
     <ClInclude Include="GUI_Base.h" />
     <ClInclude Include="HighlighterThreads.h" />
@@ -233,14 +233,14 @@
     <ClInclude Include="Structures\StepModifiers.h" />
     <ClInclude Include="Structures\Step.h" />
     <ClInclude Include="Structures\StepType.h" />
-    <ClInclude Include="TAS save file\OpenTas.h" />
+    <ClInclude Include="TAS save file/OpenTas.h" />
     <ClInclude Include="TAS save file\SaveTas.h" />
     <ClInclude Include="TAS save file\TasFileConstants.h" />
     <ClInclude Include="Technology.h" />
     <ClInclude Include="TypePanel.h" />
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\Lua Files\scenarios\supply\image.png">
+    <CopyFileToFolders Include="../Lua Files\scenarios\supply\image.png">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -260,17 +260,17 @@
     <ResourceCompile Include="Factorio-TAS-Generator.rc" />
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\Lua Files\control.lua">
+    <CopyFileToFolders Include="../Lua Files\control.lua">
       <FileType>Document</FileType>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)</DestinationFolders>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\locale.cfg">
+    <CopyFileToFolders Include="../Lua Files\locale.cfg">
       <FileType>Document</FileType>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\settings.lua">
+    <CopyFileToFolders Include="../Lua Files\settings.lua">
       <FileType>Document</FileType>
     </CopyFileToFolders>
   </ItemGroup>
@@ -278,12 +278,12 @@
     <Natvis Include="misc\wxWidgets.natvis" />
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\Lua Files\goals.lua">
+    <CopyFileToFolders Include="../Lua Files\goals.lua">
       <FileType>Document</FileType>
     </CopyFileToFolders>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\Lua Files\scenarios\supply\blueprint.zip">
+    <CopyFileToFolders Include="../Lua Files\scenarios\supply\blueprint.zip">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -298,7 +298,7 @@
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/scenarios/supply/</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/scenarios/supply/</DestinationFolders>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\scenarios\supply\control.lua">
+    <CopyFileToFolders Include="../Lua Files\scenarios\supply\control.lua">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -313,7 +313,7 @@
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/scenarios/supply/</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/scenarios/supply/</DestinationFolders>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\scenarios\supply\description.json">
+    <CopyFileToFolders Include="../Lua Files\scenarios\supply\description.json">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -328,7 +328,7 @@
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)/scenarios/supply/</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)/scenarios/supply/</DestinationFolders>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\scenarios\supply\locale\en\supply.cfg">
+    <CopyFileToFolders Include="../Lua Files\scenarios\supply\locale\en\supply.cfg">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
       </DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

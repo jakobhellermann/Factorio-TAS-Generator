@@ -10,13 +10,13 @@
 #include <filesystem>
 #include <map>
 
-#include "Shared functions\Functions.h"
+#include "Shared functions/Functions.h"
 
-#include "Structures\Step.h"
-#include "Structures\StepType.h"
+#include "Structures/Step.h"
+#include "Structures/StepType.h"
 
-#include "Data\Inventory.h"
-#include "Data\utils.h"
+#include "Data/Inventory.h"
+#include "Data/utils.h"
 
 #include "DialogProgressBar.h"
 

@@ -3,8 +3,8 @@
 #include <wx/radiobut.h>
 #include <wx/string.h>
 
-#include "Data\utils.h"
-#include "Structures\StepType.h"
+#include "Data/utils.h"
+#include "Structures/StepType.h"
 
 //Top center panel with radio buttons
 class TypePanel : public wxPanel

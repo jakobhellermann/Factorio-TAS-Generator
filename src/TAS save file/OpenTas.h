@@ -10,13 +10,13 @@
 #include <sstream>
 #include <filesystem>
 
-#include "..\Shared functions\Functions.h"
+#include "../Shared functions/Functions.h"
 
-#include "..\Structures\Step.h"
+#include "../Structures/Step.h"
 
-#include "..\Data\utils.h"
+#include "../Data/utils.h"
 
-#include "..\DialogProgressBar.h"
+#include "../DialogProgressBar.h"
 
 #include "TasFileConstants.h"
 

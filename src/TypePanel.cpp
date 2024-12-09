@@ -1,7 +1,7 @@
 #include "TypePanel.h"
 
-#include "Structures\ParameterChoices.h"
-#include "Data\utils.h"
+#include "Structures/ParameterChoices.h"
+#include "Data/utils.h"
 #include "cMain.h"
 
 using std::string;

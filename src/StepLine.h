@@ -1,7 +1,7 @@
 #pragma once
 
 #include <vector>
-#include "Structures\Step.h"
+#include "Structures/Step.h"
 
 using std::vector;
 

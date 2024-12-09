@@ -8,10 +8,10 @@
 #include <vector>
 #include <map>
 
-#include "..\Structures\Step.h"
-#include "..\DialogProgressBar.h"
+#include "../Structures/Step.h"
+#include "../DialogProgressBar.h"
 
-#include "..\Data\utils.h"
+#include "../Data/utils.h"
 
 #include "TasFileConstants.h"
 

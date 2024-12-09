@@ -1,9 +1,9 @@
 #pragma once
 #include "cMain.h"
 
-#include "Shared functions\Functions.h"
+#include "Shared functions/Functions.h"
 
-#include "Data\utils.h"
+#include "Data/utils.h"
 
 using std::string;
 using std::stod;

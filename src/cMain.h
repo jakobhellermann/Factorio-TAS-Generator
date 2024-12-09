@@ -20,21 +20,21 @@
 #include "SearchUtil.h"
 #include "DialogProgressBar.h"
 
-#include "Data\utils.h"
-#include "Data\Inventory.h"
+#include "Data/utils.h"
+#include "Data/Inventory.h"
 
-#include "Structures\Building.h"
-#include "Structures\ParameterChoices.h"
-#include "Structures\Priority.h"
-#include "Structures\StepType.h"
-#include "Structures\GridEntry.h"
-#include "Structures\Step.h"
+#include "Structures/Building.h"
+#include "Structures/ParameterChoices.h"
+#include "Structures/Priority.h"
+#include "Structures/StepType.h"
+#include "Structures/GridEntry.h"
+#include "Structures/Step.h"
 
-#include "TAS save file\OpenTas.h"
-#include "TAS save file\SaveTas.h"
-#include "TAS save file\TasFileConstants.h"
+#include "TAS save file/OpenTas.h"
+#include "TAS save file/SaveTas.h"
+#include "TAS save file/TasFileConstants.h"
 
-#include "Shared functions\Functions.h"
+#include "Shared functions/Functions.h"
 
 #include "../icon.xpm"
 #include "AutoSaver.h"

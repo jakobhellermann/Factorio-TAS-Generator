@@ -43,7 +43,7 @@
     <ClCompile Include="AutoSaver.cpp">
       <Filter>save</Filter>
     </ClCompile>
-    <ClCompile Include="TAS save file\OpenTas.cpp">
+    <ClCompile Include="TAS save file/OpenTas.cpp">
       <Filter>save</Filter>
     </ClCompile>
     <ClCompile Include="TAS save file\SaveTas.cpp">
@@ -102,7 +102,7 @@
     <ClInclude Include="Structures\Orientation.h">
       <Filter>Structs</Filter>
     </ClInclude>
-    <ClInclude Include="Data\Inventory.h">
+    <ClInclude Include="Data/Inventory.h">
       <Filter>Structs</Filter>
     </ClInclude>
     <ClInclude Include="Structures\GridEntry.h">
@@ -141,7 +141,7 @@
     <ClInclude Include="AutoSaver.h">
       <Filter>save</Filter>
     </ClInclude>
-    <ClInclude Include="TAS save file\OpenTas.h">
+    <ClInclude Include="TAS save file/OpenTas.h">
       <Filter>save</Filter>
     </ClInclude>
     <ClInclude Include="TAS save file\SaveTas.h">
@@ -153,7 +153,7 @@
     <ClInclude Include="cApp.h">
       <Filter>misc</Filter>
     </ClInclude>
-    <ClInclude Include="Data\utils.h">
+    <ClInclude Include="Data/utils.h">
       <Filter>util</Filter>
     </ClInclude>
     <ClInclude Include="TypePanel.h">
@@ -182,31 +182,31 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\Lua Files\control.lua">
+    <CopyFileToFolders Include="../Lua Files\control.lua">
       <Filter>lua</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\locale.cfg">
+    <CopyFileToFolders Include="../Lua Files\locale.cfg">
       <Filter>lua</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\settings.lua">
+    <CopyFileToFolders Include="../Lua Files\settings.lua">
       <Filter>lua</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\goals.lua">
+    <CopyFileToFolders Include="../Lua Files\goals.lua">
       <Filter>lua</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\scenarios\supply\blueprint.zip">
+    <CopyFileToFolders Include="../Lua Files\scenarios\supply\blueprint.zip">
       <Filter>lua\scenarios\supply</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\scenarios\supply\control.lua">
+    <CopyFileToFolders Include="../Lua Files\scenarios\supply\control.lua">
       <Filter>lua\scenarios\supply</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\scenarios\supply\description.json">
+    <CopyFileToFolders Include="../Lua Files\scenarios\supply\description.json">
       <Filter>lua\scenarios\supply</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\scenarios\supply\image.png">
+    <CopyFileToFolders Include="../Lua Files\scenarios\supply\image.png">
       <Filter>lua\scenarios\supply</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Lua Files\scenarios\supply\locale\en\supply.cfg">
+    <CopyFileToFolders Include="../Lua Files\scenarios\supply\locale\en\supply.cfg">
       <Filter>lua\scenarios\supply</Filter>
     </CopyFileToFolders>
   </ItemGroup>

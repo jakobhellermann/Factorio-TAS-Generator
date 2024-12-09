@@ -8,12 +8,12 @@
 #include <vector>
 #include <map>
 
-#include "..\StdUtil.h"
+#include "../StdUtil.h"
 
-#include "..\Structures\Building.h"
-#include "..\Structures\GridEntry.h"
-#include "..\Structures\Step.h"
-#include "..\Structures\Orientation.h"
+#include "../Structures/Building.h"
+#include "../Structures/GridEntry.h"
+#include "../Structures/Step.h"
+#include "../Structures/Orientation.h"
 
 using std::vector;
 using std::map;
