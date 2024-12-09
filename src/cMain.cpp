@@ -4,6 +4,7 @@
 #include "ShortcutChanger.h"
 #include "SteptypeColour.h"
 #include "Technology.h"
+#include <format>
 
 cMain::cMain() : GUI_Base(nullptr, wxID_ANY, window_title, wxPoint(30, 30), wxSize(1840, 950))
 {
