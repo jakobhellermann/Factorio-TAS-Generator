@@ -1,5 +1,3 @@
-#pragma once
-
 #include "HighlighterThreads.h"
 #include "cMain.h"
 

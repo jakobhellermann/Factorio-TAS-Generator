@@ -1,5 +1,3 @@
-#pragma once
-
 #include "cMain.h"
 #include "ShortcutChanger.h"
 #include "SteptypeColour.h"

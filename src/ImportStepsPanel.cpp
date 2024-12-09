@@ -1,4 +1,3 @@
-#pragma once
 #include "cMain.h"
 
 #include "Shared functions/Functions.h"

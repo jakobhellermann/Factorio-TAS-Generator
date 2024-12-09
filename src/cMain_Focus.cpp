@@ -1,5 +1,3 @@
-#pragma once
-
 #include "cMain.h"
 
 int cMain::HandleFocusMode_FindLastSaveStep(const int from)

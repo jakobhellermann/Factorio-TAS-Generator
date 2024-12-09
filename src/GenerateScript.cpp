@@ -1,5 +1,3 @@
-#pragma once
-
 #include "GenerateScript.h"
 #include <iostream>
 #include <chrono>
