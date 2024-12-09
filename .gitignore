@@ -343,3 +343,6 @@ healthchecksdb
 /.vscode
 /CppProperties.json
 /src/generator-settings.json
+
+/build
+/cmake-build-*
