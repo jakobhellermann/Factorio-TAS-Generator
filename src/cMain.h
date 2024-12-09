@@ -296,8 +296,6 @@ protected:
 private:
 	bool is_started = false;
 
-	wxString window_title = "Factorio TAS Generator";
-
 	DialogProgressBar* dialog_progress_bar = nullptr;
 
 	string generate_code_folder_location = "";
