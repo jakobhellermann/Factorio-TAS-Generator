@@ -19,30 +19,18 @@ struct StepModifiers
 		vehicle = false;
 
 private:
-	static const struct
-	{
-		const string NO_ORDER = "no order",
-			SKIP = "skip",
-			WAIT_FOR = "wait for",
-			FORCE = "force",
-			CANCEL_OTHERS = "cancel others",
-			SPLIT = "split",
-			WALK_TOWARDS = "walk towards",
-			ALL = "all",
-			VEHICLE = "vehicle";
-	} inline StepModifiersLookupString;
-
 	static inline const vector<const string*> StepModifiersLookupStrings = {
-		& StepModifiersLookupString.NO_ORDER,
-		& StepModifiersLookupString.SKIP,
-		& StepModifiersLookupString.WAIT_FOR,
-		& StepModifiersLookupString.FORCE,
-		& StepModifiersLookupString.CANCEL_OTHERS,
-		& StepModifiersLookupString.SPLIT,
-		& StepModifiersLookupString.WALK_TOWARDS,
-		& StepModifiersLookupString.ALL,
-		& StepModifiersLookupString.VEHICLE,
+			new string("no order"),
+			new string("skip"),
+			new string("wait for"),
+			new string("force"),
+			new string("cancel others"),
+			new string("split"),
+			new string("walk towards"),
+			new string("all"),
+			new string("vehicle"),
 	};
+
 
 	inline const vector<bool> ToVector()
 	{
